@@ -2,10 +2,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, {useState} from 'react'
 import {AiOutlineClose, AiOutlineMenu, AiOutlineYoutube} from 'react-icons/ai'
-import {SlSocialSpotify} from 'react-icons/Sl'
-import {TbBrandGumroad} from 'react-icons/Tb'
-import {SiBandcamp} from 'react-icons/Si'
-import {FaPatreon} from 'react-icons/Fa'
+import {SlSocialSpotify} from 'react-icons/sl'
+import {TbBrandGumroad} from 'react-icons/tb'
+import {SiBandcamp} from 'react-icons/si'
+import {FaPatreon} from 'react-icons/fa'
 
 
 const Navbar = () => 
