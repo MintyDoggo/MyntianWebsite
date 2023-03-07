@@ -21,7 +21,7 @@ const Navbar = () =>
   return (
     <div className='fixed w-full h-40 shadow-xl z-[100] backdrop-blur-[50px] bg-[#00000078]'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
-            <Image src="/assets/dog.png" alt='/' width='125' height='50' />
+            <Image src="assets/dog.png" alt='/' width='125' height='50' />
             <div>
                 <ul className='hidden md:flex'>
                     <Link href='/'>
@@ -45,7 +45,7 @@ const Navbar = () =>
                         : 'fixed left-[-100%] top-0 p-10 ease-in duration-300'}>
                 <div>
                     <div className='flex w-full items-center justify-between'>
-                        <Image src='/assets/dog.png' width='87' height='35' alt='/'/>
+                        <Image src='assets/dog.png' width='87' height='35' alt='/'/>
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer'>
                             <AiOutlineClose/>
                         </div>
