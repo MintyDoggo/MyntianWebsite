@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Main = () => {
+const Main = () => 
+{
   return (
     <div className='w-full h-screen text-center'>
       <div className='absolute -z-10'>

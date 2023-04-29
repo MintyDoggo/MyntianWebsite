@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import React from 'react'
+import ProductNavbar from '../../components/ProductNavbar'
+import ItemSlider from '../../components/ItemSlider'
 
-const store = () => {
+
+const Natures_Orchestra = () => {
   return (
     <>
       <Head>
@@ -10,10 +13,14 @@ const store = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/assets/dog.png" />
       </Head>
-        DOWNLOAD
+      <ItemSlider/>
+      <div className='Forest_Textures_01 w-full h-screen fixed'>
+      </div>
+
+      <ProductNavbar position="absolute"/>
 
     </>
   )
 }
 
-export default store
+export default Natures_Orchestra

@@ -14,11 +14,12 @@ const store = () => {
         <link rel="icon" href="/assets/dog.png" />
       </Head>
 
-      <FeaturedItem />
-      <Row title="Kontakt Libraries" items={itemData[0]} />
-      <Row title="Sample Packs" items={itemData[1]} />
-      <Row title="Wavetable Packs" items={itemData[2]} />
-
+      <div className='store'>
+        <FeaturedItem />
+        <Row title="Kontakt Libraries" items={itemData[0]} />
+        <Row title="Sample Packs" items={itemData[1]} />
+        <Row title="Wavetable Packs" items={itemData[2]} />
+      </div>
     </>
   )
 }
