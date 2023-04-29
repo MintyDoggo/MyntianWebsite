@@ -4,11 +4,11 @@
 
 @layer base 
 {
-  body
+  /* body
   {
     @apply bg-[#38404a] text-[#eef2f7] tracking-wide
-  }
-  
+  } */
+
   h1, h2, h3, h4, h5, h6 
   {
     @apply font-bold
@@ -29,9 +29,77 @@
     @apply cursor-pointer
   }
 
-  button
-  {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#7090ff] text-white
-  }
-  
+}
+
+.index 
+{
+  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+
+  background-image: url('../public/assets/BreakcoreBeastArt.jpg');
+
+
+}
+
+.store 
+{
+  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+
+  background-color: rgb(53, 61, 67);
+}
+
+
+.Forest_Textures_01 
+{
+  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+
+  background-image: url('../public/assets/Pack_Art/Forest_Textures_01_ART.png');
+}
+
+.Vivid_Percussion_01 
+{
+  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+
+  background-image: url('../public/assets/Pack_Art/VP01_Art.png');
+}
+
+.Sturdy_Tables_01 
+{
+  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+
+  background-image: url('../public/assets/Pack_Art/ST01_Inkhazy_-_Art.png');
+}
+
+.Sturdy_Tables_02 
+{
+  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+
+  background-image: url('../public/assets/Pack_Art/ST02_Inkhazy_-_Art.jpg');
+}
+
+
+.Natures_Orchestra 
+{
+  background-color: aliceblue;
+}
+
+
+
+
+
+.custom-dots {
+  bottom: 200px;
+}
+
+/* public/global.css */
+::-webkit-scrollbar-track {
+  background-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000000 !important;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #000000 !important;
 }
