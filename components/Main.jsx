@@ -5,7 +5,7 @@ const Main = () => {
     <div className='w-full h-screen text-center'>
       <div className='absolute -z-10'>
       </div>
-      <div className=' max-w-[1240] w-full h-full mx-auto p-2 flex justify-center items-center'>
+      <div className='max-w-[1240] w-full h-full mx-auto p-2 flex justify-center items-center'>
           <div>
             
               <h1>Myntian DTM</h1>
