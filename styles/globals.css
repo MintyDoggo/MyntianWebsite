@@ -50,56 +50,73 @@
 
 .Forest_Textures_01 
 {
-  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+  @apply bg-cover bg-center bg-no-repeat;
 
   background-image: url('../public/assets/Pack_Art/Forest_Textures_01_ART.png');
+  background-position: top;
 }
 
 .Vivid_Percussion_01 
 {
-  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+  @apply bg-cover bg-center bg-no-repeat;
 
-  background-image: url('../public/assets/Pack_Art/VP01_Art.png');
+  background-image: url('../public/assets/Pack_Art/Forest_Textures_01_ART.png');
+  background-position: top;
 }
 
 .Sturdy_Tables_01 
 {
-  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+  @apply bg-cover bg-center bg-no-repeat;
 
-  background-image: url('../public/assets/Pack_Art/ST01_Inkhazy_-_Art.png');
+  background-image: url('../public/assets/Pack_Art/Forest_Textures_01_ART.png');
+  background-position: top;
 }
 
 .Sturdy_Tables_02 
 {
-  @apply bg-cover bg-center bg-no-repeat bg-fixed;
+  @apply bg-cover bg-center bg-no-repeat;
 
-  background-image: url('../public/assets/Pack_Art/ST02_Inkhazy_-_Art.jpg');
+  background-image: url('../public/assets/Pack_Art/Forest_Textures_01_ART.png');
+  background-position: top;
 }
 
 
 .Natures_Orchestra 
 {
-  background-color: aliceblue;
+  @apply bg-cover bg-center bg-no-repeat;
+
+  background-image: url('../public/assets/Pack_Art/Forest_Textures_01_ART.png');
+  background-position: top;
 }
 
 
-
-
-
-.custom-dots {
-  bottom: 200px;
+.custom-dots 
+{
+  
 }
 
-/* public/global.css */
-::-webkit-scrollbar-track {
-  background-color: transparent !important;
+::-webkit-scrollbar:horizontal
+{
+  width: 6px;
+  height: 6px;
+  background-color: rgb(20, 20, 20) !important;
+
+  border-radius: 10px;
+
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: #000000 !important;
+::-webkit-scrollbar 
+{
+  width: 6px;
+  height: 6px;
+  background-color: rgb(20, 20, 20);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: #d3d3d3 !important;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background-color: #000000 !important;
+::-webkit-scrollbar-thumb {
+  background-color: #d3d3d3 !important;
 }

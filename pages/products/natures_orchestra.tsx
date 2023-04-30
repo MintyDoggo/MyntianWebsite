@@ -14,10 +14,8 @@ const Natures_Orchestra = () => {
         <link rel="icon" href="/assets/dog.png" />
       </Head>
       <ItemSlider/>
-      <div className='Forest_Textures_01 w-full h-screen fixed'>
-      </div>
 
-      <ProductNavbar position="absolute"/>
+      <ProductNavbar position="absolute" link="https://www.mediafire.com/file/8wynb2v4673hw3w/Natures_Orchestra_-_Myntian.zip/file"/>
 
     </>
   )

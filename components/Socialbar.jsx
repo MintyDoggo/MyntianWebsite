@@ -9,7 +9,7 @@ const Socialbar = () =>
 {
   return (
     <div>
-        <p className='fixed flex item-center justify-between w-[250px] z-100 my-4 right-[1.8rem] bottom-[3.5rem] text-[#bc7c86]'>My Socials:</p>
+        <p className='fixed flex item-center justify-between w-[250px] z-100 my-4 right-[1.8rem] bottom-[3.5rem] text-[#ffffff]'>My Socials:</p>
         <div className='fixed flex item-center justify-between w-[250px] z-100 my-4 right-[2rem] bottom-[1rem]'>
             
             <div className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer hover:scale-[103%] ease-in duration-100'>

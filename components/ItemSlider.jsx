@@ -28,14 +28,14 @@ const ItemSlider = () =>
         </div>
         <div>
           <img
-            src="/assets/Pack_Art/Forest_Textures_01_ART_Square.png"
+            src="/assets/Pack_Art/tmpKontakt.png"
             alt="Featured item 2"
             style={{ maxWidth: '100%', height: '100%', width: '100%', maxHeight: '600px', objectFit: 'cover'}}
           />
         </div>
         <div>
           <img
-            src="/assets/Pack_Art/Forest_Textures_01_ART_Square.png"
+            src="/assets/Pack_Art/VP01_Art_Smaller.png"
             alt="Featured item 3"
             style={{ maxWidth: '100%', height: '100%', width: '100%', maxHeight: '600px', objectFit: 'cover'}}
           />

@@ -4,7 +4,8 @@ import Socialbar from '../components/Socialbar'
 import type { AppProps } from 'next/app'
 
 // makes it so its shown everywhere
-export default function App({ Component, pageProps }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) 
+{
   return <>
     <Navbar />
     <Component {...pageProps} />

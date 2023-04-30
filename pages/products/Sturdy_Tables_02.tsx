@@ -12,10 +12,7 @@ const Sturdy_Tables_02 = () => {
         <link rel="icon" href="/assets/dog.png" />
       </Head>
       <ItemSlider/>
-      <div className='Forest_Textures_01 w-full h-screen fixed'>
-      </div>
-
-      <ProductNavbar position="absolute"/>
+      <ProductNavbar position="absolute" link="https://www.mediafire.com/file/tyffb6tetaf24u6/Myntian_Sturdy_Tables_02.zip/file"/>
     </>
   )
 }

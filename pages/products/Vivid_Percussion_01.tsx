@@ -13,10 +13,7 @@ const Vivid_Percussion_01 = () => {
         <link rel="icon" href="/assets/dog.png" />
       </Head>
       <ItemSlider/>
-      <div className='Forest_Textures_01 w-full h-screen fixed'>
-      </div>
-
-      <ProductNavbar position="absolute"/>
+      <ProductNavbar position="absolute" link="https://www.mediafire.com/file/qumxnemi69wbdnq/Myntian_Vivid_Percussion_1.zip/file"/>
     </>
   )
 }
