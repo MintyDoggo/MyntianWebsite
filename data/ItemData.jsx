@@ -4,7 +4,7 @@ const itemData = [
     {
       id: 1,
       name: "Nature's Orchestra",
-      image: "/assets/Pack_Art/tmpKontakt.png",           // WHEN DEPLOYING (todo) simple remove the slash before assets
+      image: "assets/Pack_Art/tmpKontakt.png",           // WHEN DEPLOYING (todo) simple remove the slash before assets
       price: 50.00,
       path: "/store/Natures_Orchestra",
       title: "【Kontakt Library - Nature's Orchestra (Coming Soon)】",
@@ -17,7 +17,7 @@ const itemData = [
     {
       id: 2,
       name: "Vivid Percussion 1",
-      image: "/assets/Pack_Art/VP01_Art.png",
+      image: "assets/Pack_Art/VP01_Art.png",
       price: 10.00,
       path: "/store/Vivid_Percussion_01",
       title: "【New Sample Pack - Vivid Percussion】",
@@ -33,7 +33,7 @@ const itemData = [
     {
       id: 3,
       name: "Forest Textures 1",
-      image: "/assets/Pack_Art/Forest_Textures_01_ART_Square.png",
+      image: "assets/Pack_Art/Forest_Textures_01_ART_Square.png",
       price: 15.00,
       path: "/store/Forest_Textures_01",
       title: "【New Sample Pack - Forest Textures】",
@@ -51,7 +51,7 @@ const itemData = [
     {
       id: 4,
       name: "Sturdy Tables 1",
-      image: "/assets/Pack_Art/ST01_Inkhazy_-_Art.png",
+      image: "assets/Pack_Art/ST01_Inkhazy_-_Art.png",
       price: 5.00,
       path: "/store/Sturdy_Tables_01",
       title: "【New Wavetable Pack - Sturdy Tables】",
@@ -67,7 +67,7 @@ const itemData = [
     {
       id: 5,
       name: "Sturdy Tables 2",
-      image: "/assets/Pack_Art/ST02_Inkhazy_-_Art.jpg",
+      image: "assets/Pack_Art/ST02_Inkhazy_-_Art.jpg",
       price: 8.00,
       path: "/store/Sturdy_Tables_02",
       title: "【New Wavetable Pack - Sturdy Tables 2 (Coming Soon)】",
