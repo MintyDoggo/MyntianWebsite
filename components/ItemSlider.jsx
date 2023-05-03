@@ -13,7 +13,7 @@ const ItemSlider = () =>
       slidesToShow: 1,
       slidesToScroll: 1,
       autoplay: true, // enable autoplay
-      autoplaySpeed: 3000, // set autoplay speed to 3 seconds
+      autoplaySpeed: 2000, // set autoplay speed to 2 seconds
   };
 
   return (

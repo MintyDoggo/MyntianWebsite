@@ -14,27 +14,27 @@ const Socialbar = () =>
             
             <div className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer hover:scale-[103%] ease-in duration-100'>
                 <a href='https://t.co/jY7BATnj5S' target="_blank">
-                    <SlSocialSpotify className=' scale-[150%]'/>
+                    <SlSocialSpotify className=' scale-[150%] filter invert'/>
                 </a>
             </div>
             <div className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer hover:scale-[103%] ease-in duration-100'>
                 <a href='https://myntian.gumroad.com/' target="_blank">
-                    <TbBrandGumroad className=' scale-[180%]'/>
+                    <TbBrandGumroad className=' scale-[180%] filter invert'/>
                 </a>
             </div>
             <div className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer hover:scale-[103%] ease-in duration-100'>
                 <a href='https://www.youtube.com/@Myntian' target="_blank">
-                    <AiOutlineYoutube className=' scale-[180%]'/>
+                    <AiOutlineYoutube className=' scale-[180%] filter invert'/>
                 </a>
             </div>
             <div className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer hover:scale-[103%] ease-in duration-100'>
                 <a href='https://myntian.bandcamp.com/' target="_blank">
-                    <SiBandcamp className=' scale-[150%]'/>
+                    <SiBandcamp className=' scale-[150%] filter invert'/>
                 </a>
             </div>
             <div className='rounded-full shadow-lg shadow-[#000000] p-3 cursor-pointer hover:scale-[103%] ease-in duration-100'>
                 <a href='https://www.patreon.com/Myntian' target="_blank">
-                    <FaPatreon className=' scale-[125%]'/>
+                    <FaPatreon className=' scale-[125%] filter invert'/>
                 </a>
             </div>
         </div>

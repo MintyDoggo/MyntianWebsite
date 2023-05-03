@@ -3,7 +3,7 @@ import ProductInfo from './ProductInfo';
 import ProductDemos from './ProductDemos';
 import Link from 'next/link'
 
-const ProductNavbar = ({ position, link }) => 
+const ProductNavbar = ({ position, link, row, col, background}) => 
 {
     const [activeDiv, setActiveDiv] = useState('div1');
 
@@ -41,7 +41,7 @@ const ProductNavbar = ({ position, link }) =>
                 </div>
             </div>
         </nav>
-        {activeDiv === 'div1' ? <ProductInfo /> : <ProductDemos />}
+        {activeDiv === 'div1' ? <ProductInfo rowIDX={row} colIDX={col} backgroundDim={background}/> : <ProductDemos item/>}
     </div>
   );
 };
